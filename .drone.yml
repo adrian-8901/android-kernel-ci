@@ -10,6 +10,7 @@ steps:
     image: alpine:3.10
     commands:
       - apk add bash git
+      - apk add bash openssh
       - ./build-deps.sh
 
   - name: build
