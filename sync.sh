@@ -1,7 +1,7 @@
 #!/bin/bash
 
 URL="$1"; DIR="$2"; REF="$3"
-GIT="git -C ${DIR}"
+GIT="git"
 echo "Obtaining '${URL}' in '${DIR}' ..."
 
 is_head () {
